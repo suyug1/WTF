@@ -11,7 +11,9 @@ def cal_score(score):
 		return "F"
 
 def main():
-        score = int(input("score ="))
+		score = int(input("score ="))
+		print(cal_score(score))
+		
         
 if __name__ == "__main__":
 	main()
